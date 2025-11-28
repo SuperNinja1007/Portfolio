@@ -1,0 +1,97 @@
+{
+  "personal": {
+    "name": "John Doe",
+    "title": "Senior Software Engineer",
+    "email": "john.doe@email.com",
+    "location": "San Francisco, CA",
+    "bio": "Passionate software engineer with 8+ years of experience building scalable web applications and leading development teams. Specialized in full-stack development with a focus on modern JavaScript frameworks and cloud architecture.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=john",
+    "social": {
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "twitter": "https://twitter.com/johndoe"
+    }
+  },
+  "skills": [
+    { "name": "JavaScript/TypeScript", "level": 95, "category": "frontend" },
+    { "name": "React", "level": 90, "category": "frontend" },
+    { "name": "Node.js", "level": 88, "category": "backend" },
+    { "name": "Python", "level": 85, "category": "backend" },
+    { "name": "AWS", "level": 82, "category": "cloud" },
+    { "name": "Docker", "level": 80, "category": "devops" },
+    { "name": "PostgreSQL", "level": 85, "category": "database" },
+    { "name": "MongoDB", "level": 78, "category": "database" },
+    { "name": "GraphQL", "level": 75, "category": "backend" },
+    { "name": "Kubernetes", "level": 70, "category": "devops" }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "company": "Tech Giant Inc.",
+      "role": "Senior Software Engineer",
+      "period": "2021 - Present",
+      "description": "Leading a team of 5 engineers developing microservices architecture for the core platform. Implemented CI/CD pipelines reducing deployment time by 60%.",
+      "technologies": ["React", "Node.js", "AWS", "Kubernetes", "PostgreSQL"]
+    },
+    {
+      "id": 2,
+      "company": "Startup Labs",
+      "role": "Full Stack Developer",
+      "period": "2018 - 2021",
+      "description": "Built and maintained multiple customer-facing applications serving 100K+ daily active users. Mentored junior developers and established coding standards.",
+      "technologies": ["Vue.js", "Python", "Django", "MongoDB", "Docker"]
+    },
+    {
+      "id": 3,
+      "company": "Digital Solutions Co.",
+      "role": "Software Developer",
+      "period": "2016 - 2018",
+      "description": "Developed RESTful APIs and responsive web interfaces for enterprise clients. Collaborated with cross-functional teams to deliver projects on time.",
+      "technologies": ["JavaScript", "PHP", "MySQL", "Redis", "Linux"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "A scalable e-commerce solution with real-time inventory management, payment processing, and analytics dashboard.",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400",
+      "technologies": ["React", "Node.js", "Stripe", "PostgreSQL"],
+      "github": "https://github.com/johndoe/ecommerce",
+      "live": "https://ecommerce-demo.com"
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "A collaborative project management tool with real-time updates, kanban boards, and team analytics.",
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400",
+      "technologies": ["React", "GraphQL", "MongoDB", "Socket.io"],
+      "github": "https://github.com/johndoe/taskmanager",
+      "live": "https://taskmanager-demo.com"
+    },
+    {
+      "id": 3,
+      "title": "AI Chat Bot",
+      "description": "An intelligent chatbot powered by machine learning for customer support automation.",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400",
+      "technologies": ["Python", "TensorFlow", "FastAPI", "Docker"],
+      "github": "https://github.com/johndoe/chatbot",
+      "live": "https://chatbot-demo.com"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "school": "Stanford University",
+      "year": "2016",
+      "description": "Specialized in Distributed Systems and Machine Learning"
+    },
+    {
+      "degree": "Bachelor of Science in Software Engineering",
+      "school": "UC Berkeley",
+      "year": "2014",
+      "description": "Graduated with Honors, GPA: 3.8"
+    }
+  ]
+}
+
