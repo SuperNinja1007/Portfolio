@@ -1,29 +1,62 @@
 import { Github, Linkedin, Twitter, Mail, MapPin } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 export default function Header({ personal }) {
+  const [displayedTitle, setDisplayedTitle] = useState('');
+  const [showCursor, setShowCursor] = useState(true);
+
+  useEffect(() => {
+    let index = 0;
+    const title = personal.title;
+
+    const typeInterval = setInterval(() => {
+      if (index <= title.length) {
+        setDisplayedTitle(title.slice(0, index));
+        index++;
+      } else {
+        clearInterval(typeInterval);
+      }
+    }, 80);
+
+    const cursorInterval = setInterval(() => {
+      setShowCursor(prev => !prev);
+    }, 500);
+
+    return () => {
+      clearInterval(typeInterval);
+      clearInterval(cursorInterval);
+    };
+  }, [personal.title]);
+
   return (
     <header className="header">
+      <div className="floating-shapes">
+        <div className="shape shape-1"></div>
+        <div className="shape shape-2"></div>
+        <div className="shape shape-3"></div>
+        <div className="shape shape-4"></div>
+      </div>
       <div className="header-content">
-        <img src={personal.avatar} alt={personal.name} className="avatar" />
-        <div className="header-text">
-          <h1>{personal.name}</h1>
-          <h2>{personal.title}</h2>
-          <p className="bio">{personal.bio}</p>
-          <div className="contact-info">
-            <span><Mail size={16} /> {personal.email}</span>
-            <span><MapPin size={16} /> {personal.location}</span>
-          </div>
-          <div className="social-links">
-            <a href={personal.social.github} target="_blank" rel="noopener noreferrer">
-              <Github size={24} />
-            </a>
-            <a href={personal.social.linkedin} target="_blank" rel="noopener noreferrer">
-              <Linkedin size={24} />
-            </a>
-            <a href={personal.social.twitter} target="_blank" rel="noopener noreferrer">
-              <Twitter size={24} />
-            </a>
-          </div>
+        <h1 className="animate-fade-in">{personal.name}</h1>
+        <h2 className="typing-text">
+          {displayedTitle}
+          <span className={`cursor ${showCursor ? 'visible' : ''}`}>|</span>
+        </h2>
+        <p className="bio animate-fade-in-delay">{personal.bio}</p>
+        <div className="contact-info animate-fade-in-delay-2">
+          <span><Mail size={16} /> {personal.email}</span>
+          <span><MapPin size={16} /> {personal.location}</span>
+        </div>
+        <div className="social-links animate-fade-in-delay-3">
+          <a href={personal.social.github} target="_blank" rel="noopener noreferrer" className="social-icon">
+            <Github size={24} />
+          </a>
+          <a href={personal.social.linkedin} target="_blank" rel="noopener noreferrer" className="social-icon">
+            <Linkedin size={24} />
+          </a>
+          <a href={personal.social.twitter} target="_blank" rel="noopener noreferrer" className="social-icon">
+            <Twitter size={24} />
+          </a>
         </div>
       </div>
     </header>
