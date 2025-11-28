@@ -2,9 +2,12 @@ export default function Skills({ skills }) {
   const categories = {
     frontend: 'Frontend',
     backend: 'Backend',
+    mobile: 'Mobile',
     database: 'Database',
     cloud: 'Cloud',
-    devops: 'DevOps'
+    devops: 'DevOps',
+    ai: 'AI Integration',
+    automation: 'Automation'
   };
 
   const groupedSkills = skills.reduce((acc, skill) => {

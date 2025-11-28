@@ -75,35 +75,37 @@ export default function Contact() {
           <h3>Get in Touch</h3>
           <p className="contact-intro">Feel free to reach out for collaborations or just a friendly hello!</p>
 
-          <div className="contact-item">
-            <Mail size={20} />
-            <div>
-              <h4>Email</h4>
-              <a href="mailto:happy.shinny@outlook.com">happy.shinny@outlook.com</a>
+          <div className='contact-inner'>
+            <div className="contact-item">
+              <Mail size={20} />
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:happy.shinny@outlook.com">happy.shinny@outlook.com</a>
+              </div>
             </div>
-          </div>
 
-          <div className="contact-item">
-            <Phone size={20} />
-            <div>
-              <h4>Phone</h4>
-              <a href="tel:+1234567890">+1 (234) 567-890</a>
+            <div className="contact-item">
+              <Phone size={20} />
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+1234567890">+1 (234) 567-890</a>
+              </div>
             </div>
-          </div>
 
-          <div className="contact-item">
-            <MapPin size={20} />
-            <div>
-              <h4>Address</h4>
-              <p>123 Tech Street, Suite 456<br />San Francisco, CA 94102</p>
+            <div className="contact-item">
+              <MapPin size={20} />
+              <div>
+                <h4>Address</h4>
+                <p>123 Tech Street, Suite 456<br />San Francisco, CA 94102</p>
+              </div>
             </div>
-          </div>
 
-          <div className="contact-item">
-            <Clock size={20} />
-            <div>
-              <h4>Availability</h4>
-              <p>Full-time, available 24/7</p>
+            <div className="contact-item">
+              <Clock size={20} />
+              <div>
+                <h4>Availability</h4>
+                <p>Full-time, available 24/7</p>
+              </div>
             </div>
           </div>
         </div>

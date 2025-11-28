@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail, MapPin } from 'lucide-react';
+import { Github, Mail, MapPin } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export default function Header({ personal }) {
@@ -47,17 +47,10 @@ export default function Header({ personal }) {
           <span><Mail size={16} /> {personal.email}</span>
           <span><MapPin size={16} /> {personal.location}</span>
         </div>
-        <div className="social-links animate-fade-in-delay-3">
-          <a href={personal.social.github} target="_blank" rel="noopener noreferrer" className="social-icon">
-            <Github size={24} />
-          </a>
-          <a href={personal.social.linkedin} target="_blank" rel="noopener noreferrer" className="social-icon">
-            <Linkedin size={24} />
-          </a>
-          <a href={personal.social.twitter} target="_blank" rel="noopener noreferrer" className="social-icon">
-            <Twitter size={24} />
-          </a>
-        </div>
+        <a href={personal.social.github} target="_blank" rel="noopener noreferrer" className="github-btn animate-fade-in-delay-3">
+          <Github size={20} />
+          <span>View GitHub Profile</span>
+        </a>
       </div>
     </header>
   );

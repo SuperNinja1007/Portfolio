@@ -13,18 +13,28 @@ function App() {
   const { personal, skills, experience, projects, education } = portfolioData
 
   return (
-    <div className="portfolio">
-      <Navbar name={personal.name} />
-      <Header personal={personal} />
-      <main>
-        <Skills skills={skills} />
-        <Experience experience={experience} />
-        <Projects projects={projects} />
-        <Education education={education} />
-        <Contact />
-      </main>
-      <Footer name={personal.name} />
-    </div>
+    <>
+      {/* GitHub-style animated glow background */}
+      <div className="bg-glow">
+        <div className="glow-orb glow-orb-1"></div>
+        <div className="glow-orb glow-orb-2"></div>
+        <div className="glow-orb glow-orb-3"></div>
+        <div className="glow-orb glow-orb-4"></div>
+      </div>
+
+      <div className="portfolio">
+        <Navbar name={personal.name} />
+        <Header personal={personal} />
+        <main>
+          <Skills skills={skills} />
+          <Experience experience={experience} />
+          <Projects projects={projects} />
+          <Education education={education} />
+          <Contact />
+        </main>
+        <Footer name={personal.name} />
+      </div>
+    </>
   )
 }
 

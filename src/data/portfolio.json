@@ -1,82 +1,89 @@
 {
   "personal": {
-    "name": "John Doe",
-    "title": "Senior Software Engineer",
-    "email": "john.doe@email.com",
+    "name": "Happy Shinny",
+    "title": "Sr. Fullstack | Automation Expert | AI Engineer",
+    "email": "happy.shinny@outlook.com",
     "location": "San Francisco, CA",
-    "bio": "Passionate software engineer with 8+ years of experience building scalable web applications and leading development teams. Specialized in full-stack development with a focus on modern JavaScript frameworks and cloud architecture.",
-    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=john",
+    "bio": "With over 15 years of experience, I bring a deep, full-spectrum skill set - from frontend UI/UX to backend systems, databases, and cloud infrastructure. I enjoy creating reliable, scalable systems that combine beautiful interfaces with powerful backend logic.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=happy",
+    "hourlyRate": "$39.95/hr",
     "social": {
-      "github": "https://github.com/johndoe",
-      "linkedin": "https://linkedin.com/in/johndoe",
-      "twitter": "https://twitter.com/johndoe"
+      "github": "https://github.com/SuperNinja1007"
     }
   },
   "skills": [
-    { "name": "JavaScript/TypeScript", "level": 95, "category": "frontend" },
-    { "name": "React", "level": 90, "category": "frontend" },
-    { "name": "Node.js", "level": 88, "category": "backend" },
+    { "name": "React.js/Next.js", "level": 95, "category": "frontend" },
+    { "name": "Vue.js/Nuxt.js", "level": 90, "category": "frontend" },
+    { "name": "TypeScript", "level": 92, "category": "frontend" },
+    { "name": "Tailwind CSS", "level": 90, "category": "frontend" },
+    { "name": "React Native", "level": 88, "category": "mobile" },
+    { "name": "Android Development", "level": 85, "category": "mobile" },
+    { "name": "iOS Development", "level": 85, "category": "mobile" },
+    { "name": "Node.js/Express/Nest.js", "level": 92, "category": "backend" },
+    { "name": "PHP/Laravel", "level": 88, "category": "backend" },
+    { "name": "Ruby on Rails", "level": 85, "category": "backend" },
     { "name": "Python", "level": 85, "category": "backend" },
-    { "name": "AWS", "level": 82, "category": "cloud" },
-    { "name": "Docker", "level": 80, "category": "devops" },
-    { "name": "PostgreSQL", "level": 85, "category": "database" },
-    { "name": "MongoDB", "level": 78, "category": "database" },
-    { "name": "GraphQL", "level": 75, "category": "backend" },
-    { "name": "Kubernetes", "level": 70, "category": "devops" }
+    { "name": "GraphQL", "level": 88, "category": "backend" },
+    { "name": "PostgreSQL/MySQL", "level": 90, "category": "database" },
+    { "name": "MongoDB", "level": 85, "category": "database" },
+    { "name": "Docker", "level": 85, "category": "devops" },
+    { "name": "CI/CD & Deployment", "level": 88, "category": "devops" },
+    { "name": "OpenAI/LangChain", "level": 90, "category": "ai" },
+    { "name": "Make.com/n8n/Zapier", "level": 92, "category": "automation" }
   ],
   "experience": [
     {
       "id": 1,
-      "company": "Tech Giant Inc.",
-      "role": "Senior Software Engineer",
-      "period": "2021 - Present",
-      "description": "Leading a team of 5 engineers developing microservices architecture for the core platform. Implemented CI/CD pipelines reducing deployment time by 60%.",
-      "technologies": ["React", "Node.js", "AWS", "Kubernetes", "PostgreSQL"]
+      "company": "Freelance / Contract",
+      "role": "Sr. Fullstack & AI Engineer",
+      "period": "2020 - Present",
+      "description": "Building AI-powered applications, GPT-based chatbots, and automation workflows. Developing full-stack solutions with Next.js, Node.js, and cloud infrastructure.",
+      "technologies": ["Next.js", "OpenAI", "LangChain", "Node.js", "PostgreSQL"]
     },
     {
       "id": 2,
-      "company": "Startup Labs",
-      "role": "Full Stack Developer",
-      "period": "2018 - 2021",
-      "description": "Built and maintained multiple customer-facing applications serving 100K+ daily active users. Mentored junior developers and established coding standards.",
-      "technologies": ["Vue.js", "Python", "Django", "MongoDB", "Docker"]
+      "company": "Tech Solutions Agency",
+      "role": "Senior Full Stack Developer",
+      "period": "2015 - 2020",
+      "description": "Led development of enterprise web applications. Implemented CI/CD pipelines, Docker deployments, and mentored junior developers.",
+      "technologies": ["React", "PHP", "Laravel", "MySQL", "Docker"]
     },
     {
       "id": 3,
-      "company": "Digital Solutions Co.",
-      "role": "Software Developer",
-      "period": "2016 - 2018",
-      "description": "Developed RESTful APIs and responsive web interfaces for enterprise clients. Collaborated with cross-functional teams to deliver projects on time.",
+      "company": "Digital Studio",
+      "role": "Full Stack Developer",
+      "period": "2010 - 2015",
+      "description": "Built responsive web interfaces and RESTful APIs. Worked with clients to deliver scalable solutions using modern frameworks.",
       "technologies": ["JavaScript", "PHP", "MySQL", "Redis", "Linux"]
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "E-Commerce Platform",
-      "description": "A scalable e-commerce solution with real-time inventory management, payment processing, and analytics dashboard.",
-      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400",
-      "technologies": ["React", "Node.js", "Stripe", "PostgreSQL"],
-      "github": "https://github.com/johndoe/ecommerce",
-      "live": "https://ecommerce-demo.com"
+      "title": "AI Customer Support Agent",
+      "description": "GPT-based intelligent chatbot with memory/context handling for customer support automation and expert Q&A.",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400",
+      "technologies": ["OpenAI", "LangChain", "Next.js", "Supabase"],
+      "github": "https://github.com/happyshinny/ai-agent",
+      "live": "https://ai-agent-demo.com"
     },
     {
       "id": 2,
-      "title": "Task Management App",
-      "description": "A collaborative project management tool with real-time updates, kanban boards, and team analytics.",
+      "title": "Automation Workflow Platform",
+      "description": "Low-code/no-code automation system integrating Make.com, n8n, and Zapier for business process automation.",
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400",
-      "technologies": ["React", "GraphQL", "MongoDB", "Socket.io"],
-      "github": "https://github.com/johndoe/taskmanager",
-      "live": "https://taskmanager-demo.com"
+      "technologies": ["n8n", "Make.com", "Node.js", "PostgreSQL"],
+      "github": "https://github.com/happyshinny/automation",
+      "live": "https://automation-demo.com"
     },
     {
       "id": 3,
-      "title": "AI Chat Bot",
-      "description": "An intelligent chatbot powered by machine learning for customer support automation.",
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400",
-      "technologies": ["Python", "TensorFlow", "FastAPI", "Docker"],
-      "github": "https://github.com/johndoe/chatbot",
-      "live": "https://chatbot-demo.com"
+      "title": "E-Commerce Platform",
+      "description": "Scalable e-commerce solution with real-time inventory, payment processing, and SSR/SSG optimization.",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400",
+      "technologies": ["Next.js", "Stripe", "PostgreSQL", "Redis"],
+      "github": "https://github.com/happyshinny/ecommerce",
+      "live": "https://ecommerce-demo.com"
     }
   ],
   "education": [
