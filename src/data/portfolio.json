@@ -20,6 +20,7 @@
     { "name": "Android Development", "level": 85, "category": "mobile" },
     { "name": "iOS Development", "level": 85, "category": "mobile" },
     { "name": "Node.js/Express/Nest.js", "level": 92, "category": "backend" },
+    { "name": "Go (Golang)", "level": 90, "category": "backend" },
     { "name": "PHP/Laravel", "level": 88, "category": "backend" },
     { "name": "Ruby on Rails", "level": 85, "category": "backend" },
     { "name": "Python", "level": 85, "category": "backend" },
@@ -29,7 +30,50 @@
     { "name": "Docker", "level": 85, "category": "devops" },
     { "name": "CI/CD & Deployment", "level": 88, "category": "devops" },
     { "name": "OpenAI/LangChain", "level": 90, "category": "ai" },
-    { "name": "Make.com/n8n/Zapier", "level": 92, "category": "automation" }
+    { "name": "LLM/RAG", "level": 92, "category": "ai" },
+    { "name": "Anthropic/Claude", "level": 90, "category": "ai" },
+    { "name": "Vector DBs (Pinecone)", "level": 88, "category": "ai" },
+    { "name": "Make.com/n8n/Zapier", "level": 92, "category": "automation" },
+    { "name": "Google Sheets/Airtable", "level": 90, "category": "automation" },
+    { "name": "AI Agents", "level": 92, "category": "automation" }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "icon": "Code2",
+      "title": "Full Stack Development",
+      "description": "End-to-end web applications with React, Next.js, Node.js, and modern frameworks."
+    },
+    {
+      "id": 2,
+      "icon": "Smartphone",
+      "title": "Mobile Development",
+      "description": "Cross-platform mobile apps using React Native for iOS and Android."
+    },
+    {
+      "id": 3,
+      "icon": "Brain",
+      "title": "AI Integration",
+      "description": "GPT chatbots, LLM applications, RAG systems with OpenAI and Anthropic."
+    },
+    {
+      "id": 4,
+      "icon": "Workflow",
+      "title": "Automation",
+      "description": "Business workflow automation with Make.com, n8n, Zapier, and custom solutions."
+    },
+    {
+      "id": 5,
+      "icon": "Database",
+      "title": "Database & Backend",
+      "description": "Scalable APIs, PostgreSQL, MongoDB, GraphQL, and cloud infrastructure."
+    },
+    {
+      "id": 6,
+      "icon": "Bot",
+      "title": "AI Agents",
+      "description": "Intelligent AI agents for customer support, Q&A, and content generation."
+    }
   ],
   "experience": [
     {
@@ -98,6 +142,35 @@
       "school": "UC Berkeley",
       "year": "2014",
       "description": "Graduated with Honors, GPA: 3.8"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Mitchell",
+      "role": "CEO",
+      "company": "TechVentures Inc.",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "rating": 5,
+      "feedback": "Happy delivered an exceptional AI chatbot that transformed our customer support. His expertise in OpenAI and LangChain is outstanding. Highly recommend for any AI project!"
+    },
+    {
+      "id": 2,
+      "name": "Michael Chen",
+      "role": "CTO",
+      "company": "StartupHub",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "rating": 5,
+      "feedback": "Working with Happy was a game-changer. He built our entire automation workflow from scratch, saving us 40+ hours per week. Professional, responsive, and incredibly skilled."
+    },
+    {
+      "id": 3,
+      "name": "Emily Rodriguez",
+      "role": "Product Manager",
+      "company": "E-Shop Global",
+      "avatar": "https://randomuser.me/api/portraits/women/68.jpg",
+      "rating": 5,
+      "feedback": "Happy's full-stack expertise helped us launch our e-commerce platform in record time. Clean code, great communication, and delivered ahead of schedule!"
     }
   ]
 }
