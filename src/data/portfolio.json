@@ -1,6 +1,7 @@
 {
   "personal": {
-    "name": "Happy Shinny",
+    "name": "Alexandre Machado de Oliveira",
+    "shortName": "Alexandre Oliveira",
     "title": "Sr. Fullstack | Automation Expert | AI Engineer",
     "email": "happy.shinny@outlook.com",
     "location": "San Francisco, CA",
@@ -104,6 +105,33 @@
   "projects": [
     {
       "id": 1,
+      "title": "Mamatoto Village",
+      "description": "Comprehensive maternity client management system for healthcare providers delivering maternal care services. Features pregnancy episode documentation, care team collaboration, and social needs assessment.",
+      "image": "/src/assets/images/mamatoto.jpg",
+      "technologies": ["Nuxt", "Vue", "TypeORM", "GraphQL", "PostgreSQL", "Tailwind"],
+      "github": "",
+      "live": "https://inurturehr.com/"
+    },
+    {
+      "id": 2,
+      "title": "SpareBox Storage",
+      "description": "Self-storage platform serving 9+ states with location search, online rentals, secure access management, and customer portal. SEO-optimized with contact-free extended hours storage solutions.",
+      "image": "/src/assets/images/spareboxstorage.jpg",
+      "technologies": ["Next.js", "React", "Node.js", "Express", "PostgreSQL"],
+      "github": "",
+      "live": "https://www.spareboxstorage.com/"
+    },
+    {
+      "id": 3,
+      "title": "Prophet - Street Rates Management",
+      "description": "Self-storage rate management platform with facility tracking, occupancy analytics, and automated rate publishing. Built comprehensive dashboard for managing street rates across multiple facilities.",
+      "image": "/src/assets/images/prophet.jpg",
+      "technologies": ["React", "Vite", "Ant Design", "Node.js", "Express"],
+      "github": "",
+      "live": "https://prophet.spareboxtech.com/"
+    },
+    {
+      "id": 4,
       "title": "AI Customer Support Agent",
       "description": "GPT-based intelligent chatbot with memory/context handling for customer support automation and expert Q&A.",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400",
@@ -112,7 +140,7 @@
       "live": "https://ai-agent-demo.com"
     },
     {
-      "id": 2,
+      "id": 5,
       "title": "Automation Workflow Platform",
       "description": "Low-code/no-code automation system integrating Make.com, n8n, and Zapier for business process automation.",
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400",
@@ -121,7 +149,7 @@
       "live": "https://automation-demo.com"
     },
     {
-      "id": 3,
+      "id": 6,
       "title": "E-Commerce Platform",
       "description": "Scalable e-commerce solution with real-time inventory, payment processing, and SSR/SSG optimization.",
       "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400",

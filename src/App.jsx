@@ -26,7 +26,7 @@ function App() {
       </div>
 
       <div className="portfolio">
-        <Navbar name={personal.name} />
+        <Navbar name={personal.shortName} />
         <Header personal={personal} />
         <Stats />
         <main>
@@ -38,7 +38,7 @@ function App() {
           <Testimonials testimonials={testimonials} />
           <Contact />
         </main>
-        <Footer name={personal.name} />
+        <Footer name={personal.shortName} />
       </div>
     </>
   )
